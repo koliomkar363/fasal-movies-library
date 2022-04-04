@@ -41,7 +41,7 @@ searchBtn.addEventListener('click', (event) => {
   event.preventDefault();
   title = input.value;
 
-  fetch(`https://www.omdbapi.com/?t=${title}&apikey=858e8714`)
+  fetch(`https://www.omdbapi.com/?t=${title}&apikey=YourAPIKeyHere`)
     .then((response) => response.json())
     .then((data) => {
       if (data.Error === 'Movie not found!') {
