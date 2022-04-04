@@ -25,7 +25,7 @@ Create a movie library web application with the below features using any tech st
 1. You must have `Python` installed on your system.
 2. Visit `https://www.omdbapi.com/apikey.aspx` and get your API KEY
 3. Download the code and unzip it
-4. In your terminal, `cd` into the `fasal` directory.
+4. In your terminal, `cd` into the `fasal-movies-library-master` directory.
 5. Run `pip install -r requirements.txt` to download all the dependencies.
 6. Run `python manage.py makemigrations movies` to make migrations for the `movies` app.
 7. Navigate to movies->static->movies->index.js and on line 45 replace 'API_KEY' with your API KEY.
