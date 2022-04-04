@@ -28,9 +28,10 @@ Create a movie library web application with the below features using any tech st
 4. In your terminal, `cd` into the `fasal-movies-library-master` directory.
 5. Run `pip install -r requirements.txt` to download all the dependencies.
 6. Run `python manage.py makemigrations movies` to make migrations for the `movies` app.
-7. Navigate to movies->static->movies->index.js and on line 45 replace 'API_KEY' with your API KEY.
-8. Run `python manage.py runserver` to start the Django web server.
-9. Visit the website in your browser.
+7. Run `python manage.py migrate` to apply migrations to your database.
+8. Navigate to movies->static->movies->index.js and on line 45 replace 'API_KEY' with your API KEY.
+9. Run `python manage.py runserver` to start the Django web server.
+10. Visit the website in your browser.
 
 ## Help
 
