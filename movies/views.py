@@ -1,4 +1,4 @@
-import json
+import os
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from .forms import RegistrationForm
@@ -8,6 +8,7 @@ from django.contrib.auth import login
 from .models import MovieList, Movie
 from django.contrib.auth.models import User
 
+api_key = os.environ.get('OMDb_API_KEY')
 
 @login_required(login_url='/login')
 def index(request):
