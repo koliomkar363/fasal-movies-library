@@ -2,7 +2,7 @@
 
 Create a movie library web application with the below features using any tech stack.
 
-## Requirements:
+## Requirements
 
 - The application must have user authentication ( Sign In/ Sign Up )
 
@@ -36,8 +36,8 @@ Create a movie library web application with the below features using any tech st
 
 To visit a public movie-list:
 
-- Replace '<username>' with the profile's 'username' you want to visit: https://fasal-movies-library.herokuapp.com/profile/<username>/
+- Replace `username` with the profile's 'username' you want to visit: https://fasal-movies-library.herokuapp.com/profile/`username`/
 
 ## Heroku
 
-[fasal-movies-library](https://fasal-movies-library.herokuapp.com/)
+Website: [fasal-movies-library](https://fasal-movies-library.herokuapp.com/)
